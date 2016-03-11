@@ -4,9 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c374f727c3975593f4277d7791de4422",
-    "content-hash": "5f236269cefbdc7de776cc26af6f30ec",
-    "packages": [],
+    "hash": "b238994b862a0753d8d4d9ffcdb6f65c",
+    "content-hash": "dc63db3c8bee087a2cc4c5e78387a847",
+    "packages": [
+        {
+            "name": "ctala/cubo-polis-post-library",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ctala/CuboPolisPostLibrary.git",
+                "reference": "c2be33fedf60d09342ca7b29cbcb97c100e95cd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ctala/CuboPolisPostLibrary/zipball/c2be33fedf60d09342ca7b29cbcb97c100e95cd0",
+                "reference": "c2be33fedf60d09342ca7b29cbcb97c100e95cd0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CuboPolis\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cristian Tala S.",
+                    "email": "yomismo@cristiantala.cl"
+                }
+            ],
+            "description": "Para Conectar Tu Aplicacion con Cubopolis",
+            "time": "2016-03-10 19:25:39"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

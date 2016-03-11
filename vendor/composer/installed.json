@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "name": "ctala/cubo-polis-post-library",
+        "version": "v0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ctala/CuboPolisPostLibrary.git",
+            "reference": "c2be33fedf60d09342ca7b29cbcb97c100e95cd0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ctala/CuboPolisPostLibrary/zipball/c2be33fedf60d09342ca7b29cbcb97c100e95cd0",
+            "reference": "c2be33fedf60d09342ca7b29cbcb97c100e95cd0",
+            "shasum": ""
+        },
+        "time": "2016-03-10 19:25:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CuboPolis\\": "classes/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cristian Tala S.",
+                "email": "yomismo@cristiantala.cl"
+            }
+        ],
+        "description": "Para Conectar Tu Aplicacion con Cubopolis"
+    }
+]

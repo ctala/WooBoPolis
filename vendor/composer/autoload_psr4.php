@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'MyVendor\\' => array($baseDir . '/src'),
+    'WooBoPolis\\helpers\\' => array($baseDir . '/helpers'),
+    'WooBoPolis\\classes\\' => array($baseDir . '/classes'),
+    'CuboPolis\\' => array($vendorDir . '/ctala/cubo-polis-post-library/classes'),
 );
