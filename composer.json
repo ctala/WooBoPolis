@@ -1,0 +1,21 @@
+{
+    "name": "WooBoPolis",
+    "description": "DESCRIPCION A DEFINIR",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Tala S.",
+            "email": "yomismo@cristiantala.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WooBoPolis\\classes\\": "classes/",
+            "WooBoPolis\\helpers\\": "helpers/"
+        }
+    }
+
+}
