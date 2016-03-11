@@ -15,7 +15,8 @@
     "autoload": {
         "psr-4": {
             "WooBoPolis\\classes\\": "classes/",
-            "WooBoPolis\\helpers\\": "helpers/"
+            "WooBoPolis\\helpers\\": "helpers/",
+            "WooBoPolis\\views\\": "views/"
         }
     }
 
